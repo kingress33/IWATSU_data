@@ -117,6 +117,7 @@ python IWATSU_DataRename.py
 ```
 
 執行完畢後，可在 `RENAME/` 看到已標準化的新檔名；原始資料仍保留在 `summary/` 內（若 `COPY_INSTEAD_OF_MOVE = True`）。
+若命名設定有誤
 
 ### 3‑4 常見標籤說明
 
@@ -136,8 +137,8 @@ python IWATSU_DataRename.py
 ## 4 Troubleshooting / FAQ
 
 * **UnicodeDecodeError**：腳本已自動切換 `utf-8 → big5 → gbk`，仍失敗時請先手動轉碼。
-* **檔名衝突**：若同名檔案重複，腳本會提出覆蓋警告；請自行確認是否要保留舊檔。
-* **空檔案**：`IWATSU_Count.py` 會列出 0 行檔案，`IWATSU_DataRename.py` 於開頭直接跳過並警告。
+* **檔名衝突**：若同名檔案重複，腳本會提出覆蓋警告，但會直接覆蓋；請自行確認是否要保留舊檔。
+* **空檔案**：`IWATSU_Count.py` 會列出 0 行檔案
 
 ---
 
@@ -150,8 +151,8 @@ python IWATSU_DataRename.py
 
 ## 6 License
 
-MIT – do whatever you want but **star ☆** the repo if it saves your day!
+0，你想怎麼改就怎麼改，因為我也只會Vibe coding 哈！我就爛！
 
 ---
 
-Made with ⚡ and caffeine. Enjoy the automation workflow! 🤖
+⚡好想畢業，好想找到工作，好想攀岩🤖
