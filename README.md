@@ -3,7 +3,7 @@
 
 # IWATSU Core Loss Utility Scripts – 使用說明
 
-> Keep calm and automate your data, bro ✨
+>AH！！！！！！！！！！！！！！！！✨
 
 這份 README 介紹 **IWATSU\_Count.py** 與 **IWATSU\_DataRename.py** 兩支腳本的目的、安裝需求、目錄結構以及實際操作流程。依照步驟執行即可快速完成資料統計與檔案分類／重新命名。
 
