@@ -120,14 +120,15 @@ python IWATSU_DataRename.py
 
 ### 3‑4 常見標籤說明
 
-| 標籤          | 來源              | 範例值     | 備註                             |
-| ----------- | --------------- | ------- | ------------------------------ |
-| AC / DC     | CSV `mode`      | AC      | `STANDARD`→AC；`DC_BIAS`/含DC→DC |
-| SIN / PULSE | CSV `function`  | sin     | 只看開頭字串                         |
-| freq k      | CSV `freq(kHz)` | 100k    | 四捨五入為整數                        |
-| ΔB          | CSV `deltaB`    | dB40mT  | DC 模式：平均值；AC 模式：範圍             |
-| Dxx         | CSV `Duty(%)`   | D40.0   | 只在 PULSE 模式且 duty≠50% 時出現      |
-| HdcAm       | `Hdc(A/m)`      | 0-250Am | 只在 DC 模式輸出範圍                   |
+| 標籤        | 來源           | 範例值     | 備註                             |
+| ----------- | --------------- | ------- | ------------------------------    |
+| AC / DC     | CSV `mode`      | AC      | `STANDARD`→AC；`DC_BIAS`/含DC→DC  |
+| SIN / PULSE | CSV `function`  | sin     | 只看開頭字串                        |
+| freq k      | CSV `freq(kHz)` | 100k    | 四捨五入為整數                      |
+| ΔB          | CSV `fix value` | dB40mT  | AC 模式：範圍                      |
+| Bmax        | CSV `fix value` | Bm40mT  | DC 模式：定值                      |
+| Dxx         | CSV `Duty(%)`   | D40.0   | 只在 PULSE 模式且 duty≠50% 時出現   |
+| HdcAm       | `Hdc(A/m)`      | 0-250Am | 只在 DC 模式輸出範圍                |
 | N=p.s       | `N1`, `N2`      | N=10.5  | P\:S 比；若相等→`N=10`              |
 
 ---
